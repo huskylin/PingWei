@@ -15,17 +15,17 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="../assets/banner01.jpg" alt="First slide">
+          <img class="d-block w-100" src="../assets/banner_01.jpg" alt="First slide">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="../assets/banner02.jpg" alt="Second slide">
+          <img class="d-block w-100" src="../assets/banner_02.jpg" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
               <h2>夠嗆，才敢大聲</h2>
               <p>這裡有一些普利珠...</p>
             </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="../assets/banner03.jpg" alt="Third slide">
+          <img class="d-block w-100" src="../assets/banner_03.jpg" alt="Third slide">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -53,7 +53,29 @@
           <a href="#" class="more">了解更多 <i class="fas fa-chevron-right"></i></a>
         </div>
       </div>
-    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="col-feature">
+            換煞車皮一定要拆坐墊
+            <img src="../assets/feature_01.jpg">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-feature">
+            皮帶龜裂.....普利珠啦！
+            <img src="../assets/feature_02.jpg">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-feature">
+            空氣濾網是每5000公里要換一次
+            <img src="../assets/feature_03.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
 </template>
 
 <script>
@@ -87,6 +109,16 @@ li {
 .more:hover {
   margin: 0 10px;
   color:  $blue + 100;
+}
+.col-feature {
+  padding: 30px 0px;
+  img {
+    padding: 30px 0px;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 250px;
+    margin: auto;
+  }
 }
 #section-content-title {
   font-weight:bold;
