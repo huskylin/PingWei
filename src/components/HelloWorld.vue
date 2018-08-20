@@ -36,45 +36,48 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-
     </div>
-      <div class="d-flex flex-row justify-content-center m-5 p-5">
-        <div id="section-content" class="d-block block-col mr-5">
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col">
           <i class="fas fa-dollar-sign fa-2x p-3"></i>
-          <h5 id="section-content-title">零利率分期</h5>
+          <h4 class="font-weight-bold mb-3">零利率分期</h4>
           <h6>提供零利率分期優惠。</h6>
           <a href="#" class="more">了解更多 <i class="fas fa-chevron-right"></i></a>
         </div>
-        <div id="section-content" class="d-block block-col ml-5">
+        <div class="col">
           <i class="fas fa-truck fa-2x p-3"></i>
-          <h5 id="section-content-title">免額外付費運送服務</h5>
+          <h4 class="font-weight-bold mb-3">免額外付費運送服務</h4>
           <h6>可享送貨到府，或一小時後在<br>
               全國富堡車行提取現貨商品。 </h6>
           <a href="#" class="more">了解更多 <i class="fas fa-chevron-right"></i></a>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="col-feature">
-            換煞車皮一定要拆坐墊
-            <img src="../assets/feature_01.jpg">
-            </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="col-feature">
+          <img src="../assets/feature_01.jpg">
+          <h5 class="font-weight-bold">換煞車皮一定要拆坐墊</h5>
           </div>
-          <div class="col-md-4">
-            <div class="col-feature">
-            皮帶龜裂.....普利珠啦！
-            <img src="../assets/feature_02.jpg">
-            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-feature">
+          <img src="../assets/feature_02.jpg">
+          <h5 class="font-weight-bold">皮帶龜裂.....普利珠啦！</h5>
           </div>
-          <div class="col-md-4">
-            <div class="col-feature">
-            空氣濾網是每5000公里要換一次
-            <img src="../assets/feature_03.jpg">
-            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-feature">
+          <img src="../assets/feature_03.jpg">
+          <h5 class="font-weight-bold">空氣濾網是每5000公里要換一次</h5>
           </div>
         </div>
       </div>
+    </div>
   </div>
 </template>
 
@@ -119,6 +122,9 @@ li {
     max-width: 250px;
     margin: auto;
   }
+}
+.feature-container {
+  background-color: rgb(214, 214, 214);
 }
 #section-content-title {
   font-weight:bold;
