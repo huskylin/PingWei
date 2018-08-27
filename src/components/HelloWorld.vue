@@ -38,7 +38,7 @@
       </a>
     </div>
 
-    <div class="container my-5">
+    <div class="container my-6">
       <div class="row">
         <div class="col">
           <i class="fas fa-dollar-sign fa-2x p-3"></i>
@@ -53,6 +53,37 @@
               全國富堡車行提取現貨商品。 </h6>
           <a href="#" class="more">了解更多 <i class="fas fa-chevron-right"></i></a>
         </div>
+      </div>
+    </div>
+
+    <div class="quote">
+      <h2 class="font-weight-bold">「我做生意，我坦蕩蕩」</h2>
+      <p class="trans">我本身奉公守法，如果今天我不對，我賠不是</p>
+      <p> </p>
+      <div class="container px-5 my-6">
+        <div class="row">
+            <div class="col">
+            <i class="fas fa-motorcycle fa-2x px-2"></i>
+            <p class="px-2">要換煞車皮</p>
+            <br>
+            <i class="fas fa-wrench fa-2x"></i>
+            <p class="px-2">一定要拆坐墊</p>
+            </div>
+            <div class="col">
+            <i class="fas fa-bullhorn fa-2x"></i>
+            <p class="px-2">大聲就能搞定</p>
+            <br>
+            <i class="fas fa-gavel fa-2x"></i>
+            <p class="px-2">我坦蕩蕩</p>
+            </div>
+            <div class="col">
+            <i class="fas fa-bullhorn fa-2x"></i>
+            <p class="px-2">大聲就能搞定</p>
+            <br>
+            <i class="fas fa-gavel fa-2x"></i>
+            <p class="px-2">我坦蕩蕩</p>
+            </div>
+          </div>
       </div>
     </div>
 
@@ -78,16 +109,23 @@
         </div>
       </div>
     </div>
+    <IsInView></IsInView>
   </div>
 </template>
 
 <script>
+import IsInView from './IsInView.vue'
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  methods: {
+  },
+  components: {
+    IsInView
   }
 }
 </script>
@@ -125,6 +163,22 @@ li {
 }
 .feature-container {
   background-color: rgb(214, 214, 214);
+}
+.quote {
+  height: 450px;
+  background-image: url("../assets/quote_01.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60% 80%;
+  padding-top: 60px;
+  color: white;
+}
+.my-6 {
+  margin-top: $spacer * 5;
+  margin-bottom: $spacer * 5;
+}
+.tans {
+  color: greenyellow;
 }
 #section-content-title {
   font-weight:bold;
