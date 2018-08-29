@@ -178,7 +178,8 @@ li {
   margin-bottom: $spacer * 5;
 }
 .trans {
-  color: greenyellow;
+  margin-top: 50px;
+  color: yellow;
   opacity: 0;
 }
 #section-content-title {
