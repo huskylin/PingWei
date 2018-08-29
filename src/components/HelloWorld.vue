@@ -177,8 +177,9 @@ li {
   margin-top: $spacer * 5;
   margin-bottom: $spacer * 5;
 }
-.tans {
+.trans {
   color: greenyellow;
+  opacity: 0;
 }
 #section-content-title {
   font-weight:bold;
