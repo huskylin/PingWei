@@ -21,7 +21,7 @@
           <img class="d-block w-100" src="../assets/banner_02.jpg" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
               <h2>夠嗆，才敢大聲</h2>
-              <p>這裡有一些普利珠...</p>
+              <p>有什麼不滿，我都奉陪到底</p>
             </div>
         </div>
         <div class="carousel-item">
@@ -57,13 +57,13 @@
     </div>
 
     <div class="quote">
-      <h2 class="font-weight-bold">「我做生意，我坦蕩蕩」</h2>
+      <h2 class="display-4 font-weight-bold">「我做生意，我坦蕩蕩」</h2>
       <p class="trans">我本身奉公守法，如果今天我不對，我賠不是</p>
       <p> </p>
       <div class="container px-5 my-6">
-        <div class="row">
+        <div class="row trans">
             <div class="col">
-            <i class="fas fa-motorcycle fa-2x px-2"></i>
+            <i class="fas fa-motorcycle fa-2x"></i>
             <p class="px-2">要換煞車皮</p>
             <br>
             <i class="fas fa-wrench fa-2x"></i>
@@ -106,6 +106,51 @@
           <img src="../assets/feature_03.jpg">
           <h5 class="font-weight-bold">空氣濾網是每5000公里要換一次</h5>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md p-2">
+          <div class="col-grid">
+            <img src="../assets/feature_04.jpg">
+          </div>
+          <h5 class="font-weight-bold my-2">輕量化車架</h5>
+        </div>
+        <div class="col-md p-2">
+          <div class="col-grid">
+            <img src="../assets/feature_05.jpg">
+          </div>
+          <h5 class="font-weight-bold my-2">前282mm雙浮動式碟盤+對向四活塞卡鉗+ABS</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md p-2">
+          <div class="col-grid">
+            <img src="../assets/feature_06.jpg">
+          </div>
+          <h5 class="font-weight-bold my-2">180後寬胎+245mm單碟</h5>
+        </div>
+        <div class="col-md p-2">
+          <div class="col-grid">
+            <img src="../assets/feature_07.jpg">
+          </div>
+          <h5 class="font-weight-bold my-2">多功能液晶儀表板</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md p-2">
+          <div class="col-grid">
+            <img src="../assets/feature_08.jpg">
+          </div>
+          <h5 class="font-weight-bold my-2">新造型坐墊</h5>
+        </div>
+        <div class="col-md p-2">
+          <div class="col-grid">
+            <img src="../assets/feature_09.jpg">
+          </div>
+          <h5 class="font-weight-bold my-2">新樣式中置多連桿避震</h5>
         </div>
       </div>
     </div>
@@ -157,8 +202,20 @@ li {
     padding: 30px 0px;
     border-radius: 50%;
     overflow: hidden;
-    max-width: 250px;
+    max-width: 200px;
     margin: auto;
+  }
+}
+.col-grid {
+  max-width: 450px;
+  overflow: hidden;
+  img {
+    max-width: 450px;
+  &:hover
+    {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
   }
 }
 .feature-container {
@@ -179,7 +236,6 @@ li {
 }
 .trans {
   margin-top: 50px;
-  color: yellow;
   opacity: 0;
 }
 #section-content-title {

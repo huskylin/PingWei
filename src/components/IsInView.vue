@@ -1,10 +1,3 @@
-<template>
-    <div class="cssSelector">
-        <div class="square">
-        </div>
-    </div>
-</template>
-
 <script>
 // import anime from 'animejs'
 export default {
@@ -42,16 +35,6 @@ export default {
 </script>
 
 <style>
-.square {
-  pointer-events: none;
-  position: relative;
-  width: 128px;
-  height: 128px;
-  margin: 1px;
-  background-color: currentColor;
-  font-size: 12px;
-  color: #2c3e50;
-}
 .is-visible {
   transform: matrix(1, 0, 0, 1, 0, -30);
   transition-delay: 0.7s;
