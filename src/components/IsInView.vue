@@ -37,7 +37,7 @@ export default {
 <style>
 .is-visible {
   transform: matrix(1, 0, 0, 1, 0, -30);
-  transition-delay: 0.7s;
+  transition-delay: 0.2s;
   transition-duration: 0.7s, 0.7s, 0.7s;
   transition-property: transform, opacity, transform;
   transition-timing-function: cubic-bezier(0.25, 0.46, 0.33, 0.98), cubic-bezier(0.25, 0.46, 0.33, 0.98), cubic-bezier(0.25, 0.46, 0.33, 0.98);
@@ -45,8 +45,8 @@ export default {
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 2s;
-  animation-delay: 0.5s;
+  animation-duration: 1.5s;
+  animation-delay: 0.2s;
   animation-fill-mode: forwards;
 }
 @keyframes fadeInOpacity {
